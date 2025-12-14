@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# goal:
-# this script run speedtest (ookla version) against multiple servers to get more comprehensive results.
+# this script runs speedtest (ookla version) against multiple servers to get more comprehensive results.
 # server list can be obtained by: ~/speedtest -L -f json
 # run against a server id: ~/speedtest -s id
 
 # Configuration
-DEFAULT_SERVER_COUNT=5
 HOSTNAME=$(hostname)
 RESULTS_DIR="speedtest_results/ookla/$HOSTNAME"
 TIMESTAMP=$(date '+%Y%m%d_%H%M%S')

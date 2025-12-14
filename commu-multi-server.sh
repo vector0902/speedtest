@@ -1,13 +1,11 @@
 
 #!/bin/bash
 
-# goal:
-# this script run speedtest-cli (ubuntu version) against multiple servers to get more comprehensive results.
+# this script runs speedtest-cli (ubuntu version) against multiple servers to get more comprehensive results.
 # server list can be obtained by: speedtest-cli --list (has to parse id)
 # run against a server id: speedtest-cli --server id
 
 # Configuration
-DEFAULT_SERVER_COUNT=5
 HOSTNAME=$(hostname)
 RESULTS_DIR="speedtest_results/commu/$HOSTNAME"
 TIMESTAMP=$(date '+%Y%m%d_%H%M%S')
