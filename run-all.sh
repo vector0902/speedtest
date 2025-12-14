@@ -1,4 +1,4 @@
 
-./commu-multi-server.sh
-./ookla-multi-server.sh
+sh ./commu-multi-server.sh
+sh ./ookla-multi-server.sh
 
