@@ -1,4 +1,4 @@
 
-./ookla-multi-server.sh
-./commu-multi-server.sh
+./prep_ookla.sh
+./prep_community.sh
 
